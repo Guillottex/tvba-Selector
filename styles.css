@@ -1,0 +1,100 @@
+/* Estilo del separador horizontal */
+.separador {
+  border-top: 5px solid #aca9a975; /* Cambia el grosor y el color de la línea según tus preferencias */
+  margin: 20px 0; /* Añade margen arriba y abajo para separar otros elementos */
+}
+
+/* Contenedor principal */
+.contenedor {
+  margin: 0 auto;
+  max-width: 1200px; /* Ajusta el ancho máximo según tus necesidades */
+  padding: 20px;
+}
+
+/* Estilo del logotipo */
+.navbar-brand img {
+  max-width: 60px; /* Tamaño máximo del logotipo */
+  height: auto;
+}
+
+/* Estilo de la barra de navegación */
+.navbar {
+  background-color: #343a40; /* Color de fondo de la barra de navegación */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff; /* Color del texto en los enlaces de navegación */
+}
+
+.navbar-toggler-icon {
+  background-color: #ffffff; /* Color del icono del botón de hamburguesa */
+}
+
+/* Estilo de los selectores y los iframes */
+.iframe-selector {
+  margin-bottom: 20px; /* Espacio entre los selectores y los iframes */
+}
+
+.iframe-source {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd; /* Borde del selector */
+  border-radius: 5px;
+  background-color: #ffffff; /* Color de fondo del selector */
+  color: #333; /* Color del texto del selector */
+}
+
+.custom-iframe {
+  width: 100%;
+  max-width: 100%;
+  height: 450px; /* Ajusta la altura según tus necesidades */
+  margin-bottom: 20px; /* Espacio entre los iframes */
+}
+
+/* Estilo de los iframes */
+.custom-iframe iframe {
+  width: 100%;
+  height: 100%;
+  border: 0; /* Quita el borde del iframe */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave en los iframes */
+}
+
+/* Estilo de enlaces y texto en la página */
+a {
+  color: #007bff; /* Color de los enlaces */
+  text-decoration: none; /* Quita el subrayado de los enlaces */
+}
+
+/* Estilo del botón de navegación colapsable (hamburguesa) */
+.navbar-toggler {
+  background-color: #ffffff; /* Color del botón de navegación colapsable */
+}
+
+/* Estilo de la fuente y texto general en la página */
+body {
+  font-family: Arial, sans-serif;
+  color: #333; /* Color del texto general */
+}
+
+/* Estilo de los enlaces al pasar el mouse sobre ellos */
+a:hover {
+  text-decoration: underline; /* Subrayado al pasar el mouse sobre los enlaces */
+}
+
+
+  
+
+@media screen and (max-width: 800px) {
+
+
+  .responsive-map {
+
+
+
+    height: 200px; /* Ajusta la altura para pantallas pequeñas */
+}
+
+}
+

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <link rel="stylesheet" href="ruta/a/bootstrap.min.css">
+    <script src="ruta/a/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body class="contenedor1">
+    <nav class="navbar navbar-expand-md navbar-light" style="background-color: #fff;">
+        <a class="navbar-brand" href="#">
+            <img src="https://buenosaires.gob.ar/assets/img/logos/LogoBA.svg" alt="LogoBA" width="60" height="60">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Acerca de</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="separador"></div>
+
+    <!-- Grupo 1 de tres contenedores con selectores y iframes -->
+    <div class="custom-iframe">
+        <div class="row">
+            <div class="col-md-4">
+                <label for="iframe-source-1">Canal 1</label>
+                <select id="iframe-source-1" class="iframe-source">
+                    <option value="https://www.youtube.com/embed/live_stream?channel=UCj6PcyLvpnIRT_2W_mwa9Aw&amp;enablejsapi=1&amp;rel=0&amp;showinfo=0&amp;controls=1&amp;autoplay=1&amp;mute=1&amp;modestbranding=1">Fuente 1</option>
+                    <option value="https://www.youtube.com/embed/avly0uwZzOE?autoplay=1&amp;mute=1&amp;rel=0&amp;modestbranding=1">Fuente 2</option>
+                    <option value="https://www.youtube.com/embed/JbACczpISiw?autoplay=1&amp;mute=1&amp;rel=0&amp;modestbranding=1">Fuente 3</option>
+                </select>
+                <iframe id="iframe-1" class="custom-iframe" src="" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="col-md-4">
+                <label for="iframe-source-2">canal 2</label>
+                <select id="iframe-source-2" class="iframe-source">
+                    <option value="https://www.youtube.com/embed/live_stream?channel=UCj6PcyLvpnIRT_2W_mwa9Aw&amp;enablejsapi=1&amp;rel=0&amp;showinfo=0&amp;controls=1&amp;autoplay=1&amp;mute=1&amp;modestbranding=1">Fuente 1</option>
+                    <option value="https://www.youtube.com/embed/avly0uwZzOE?autoplay=1&amp;mute=1&amp;rel=0&amp;modestbranding=1">Fuente 2</option>
+                    <option value="https://www.youtube.com/embed/JbACczpISiw?autoplay=1&amp;mute=1&amp;rel=0&amp;modestbranding=1">Fuente 3</option>
+                </select>
+                <iframe id="iframe-2" class="custom-iframe" src="" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="col-md-4">
+                <label for="iframe-source-3">Canal 3</label>
+                <select id="iframe-source-3" class="iframe-source">
+                    <option value="https://www.youtube.com/embed/live_stream?channel=UCj6PcyLvpnIRT_2W_mwa9Aw&amp;enablejsapi=1&amp;rel=0&amp;showinfo=0&amp;controls=1&amp;autoplay=1&amp;mute=1&amp;modestbranding=1">Fuente 1</option>
+                    <option value="https://www.youtube.com/embed/avly0uwZzOE?autoplay=1&amp;mute=1&amp;rel=0&amp;modestbranding=1">Fuente 2</option>
+                    <option value="https://www.youtube.com/embed/JbACczpISiw?autoplay=1&amp;mute=1&amp;rel=0&amp;modestbranding=1">Fuente 3</option>
+                </select>
+                <iframe id="iframe-3" class="custom-iframe" src="" width="700" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div class="separador"></div>
+
+    <!-- Grupo 2 de tres contenedores con los mismos selectores y iframes -->
+    <div class="custom-iframe">
+        <div class="row">
+            <div class="col-md-4">
+                <label for="iframe-source-4">Canal 4</label>
+                <select id="iframe-source-4" class="iframe-source">
+                    <option value="https://www.youtube.com/embed/live_stream?channel=UCj6PcyLvpnIRT_2W_mwa9Aw&amp;enablejsapi=1&amp;rel=0&amp;showinfo=0&amp;controls=1&amp;autoplay=1&amp;mute=1&amp;modestbranding=1">Fuente 1</option>
+                    <option value="https://www.youtube.com/embed/avly0uwZzOE?autoplay=1&amp;mute=1&amp;rel=0&amp;modestbranding=1">Fuente 2</option>
+                    <option value="https://www.youtube.com/embed/JbACczpISiw?autoplay=1&amp;mute=1&amp;rel=0&amp;modestbranding=1">Fuente 3</option>
+                </select>
+                <iframe id="iframe-4" class="custom-iframe" src="" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="col-md-4">
+                <label for "iframe-source-5">Canal 5</label>
+                <select id="iframe-source-5" class="iframe-source">
+                    <option value="https://www.youtube.com/embed/live_stream?channel=UCj6PcyLvpnIRT_2W_mwa9Aw&amp;enablejsapi=1&amp;rel=0&amp;showinfo=0&amp;controls=1&amp;autoplay=1&amp;mute=1&amp;modestbranding=1">Fuente 1</option>
+                    <option value="https://www.youtube.com/embed/avly0uwZzOE?autoplay=1&amp;mute=1&amp;rel=0&amp;modestbranding=1">Fuente 2</option>
+                    <option value="https://www.youtube.com/embed/JbACczpISiw?autoplay=1&amp;mute=1&amp;rel=0&amp;modestbranding=1">Fuente 3</option>
+                </select>
+                <iframe id="iframe-5" class="custom-iframe" src="" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="col-md-4">
+                <label for "iframe-source-6">Canal 6</label>
+                <select id="iframe-source-6" class="iframe-source">
+                    <option value="https://www.youtube.com/embed/live_stream?channel=UCj6PcyLvpnIRT_2W_mwa9Aw&amp;enablejsapi=1&amp;rel=0&amp;showinfo=0&amp;controls=1&amp;autoplay=1&amp;mute=1&amp;modestbranding=1">Fuente 1</option>
+                    <option value="https://www.youtube.com/embed/avly0uwZzOE?autoplay=1&amp;mute=1&amp;rel=0&amp;modestbranding=1">Fuente 2</option>
+                    <option value="https://www.youtube.com/embed/JbACczpISiw?autoplay=1&amp;mute=1&amp;rel=0&amp;modestbranding=1">Fuente 3</option>
+                </select>
+                <iframe id="iframe-6" class="custom-iframe" src="" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tu separador y otros iframes ... -->
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const iframeSelectors = document.querySelectorAll('.iframe-source');
+            const iframes = document.querySelectorAll('.custom-iframe iframe');
+
+            iframeSelectors.forEach((selector, index) => {
+                selector.addEventListener('change', function () {
+                    const selectedSource = selector.value;
+                    iframes[index].src = selectedSource;
+                });
+            });
+        });
+    </script>
+</body>
+</html>
